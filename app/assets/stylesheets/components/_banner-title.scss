@@ -1,0 +1,22 @@
+svg {
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+  left: 21%;
+  margin-left: -225px;
+}
+
+.second-title {
+  position: absolute;
+  top: 57%;
+  left: 6%;
+  text-align: center;
+
+  h3 {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    opacity: 0.8;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+}
