@@ -11,9 +11,9 @@ Projet.destroy_all
 
 puts "Creating projets..."
 
-guesswhat = Projet.new(name: "Guess What")
-mistercocktail = Projet.new(name: "Mister Cocktail")
-petme = Projet.new(name: "Pet me")
+guesswhat = Projet.new(name: "Guess What", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, architecto necessitatibus minima nesciunt obcaecati ipsa natus.", url: "www.exemple.com", technologies: "Web Development")
+mistercocktail = Projet.new(name: "Mister Cocktail", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, architecto necessitatibus minima nesciunt obcaecati ipsa natus.", url: "www.exemple.com", technologies: "Web Development")
+petme = Projet.new(name: "Pet me", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, architecto necessitatibus minima nesciunt obcaecati ipsa natus.", url: "www.exemple.com", technologies: "Web Development")
 
 [ guesswhat, mistercocktail, petme ].each do |projet|
   projet.save
