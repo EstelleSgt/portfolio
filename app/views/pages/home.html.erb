@@ -45,9 +45,8 @@
   </div>
 </div>
 
-
 <div class="container mx-auto">
-      <% Projet.last(3).each do |projet| %>
+      <% @projets.each do |projet| %>
         <p> <%= projet.name %></p>
         <p> <%= link_to 'Détails', projet_path(projet)%> </p>
         <% end  %>
