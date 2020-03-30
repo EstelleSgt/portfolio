@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   resources :projets, only: [ :index, :show ]
 
+  get 'home', to: 'pages#home'
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
 end
