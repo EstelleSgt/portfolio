@@ -33,4 +33,40 @@
     font-family: $second-title;
     color: $dark-gray;
   }
+
+  span {
+    display: inline;
+    text-decoration: none;
+    color: inherit;
+    background: linear-gradient(transparent 70%, $salmon 70%, $salmon 90%, transparent 90%, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    animation: animatedBackground 1s cubic-bezier(0.645, 0.045, 0.355, 1) .5s forwards;
+    animation-delay: .75s;
+
+    &:active {
+      color: rgba(0,0,0,.5);
+      opacity: 0.4;
+    }
+  }
+
+  @keyframes animatedBackground {
+    to {
+      background-size: 100% 100%;
+    }
+  }
+
+  @keyframes appear {
+    0% {opacity: 0; transform: translateY(80px); line-height: 2;}
+    50% {opacity: 0;}
+    100% {opacity: 0.2; transform: translateY(0px); line-height: 1.5;}
+  }
 }
+
+// Text vide contour noir :
+
+// -webkit-text-stroke-color: black;
+// -webkit-text-stroke-width: 0.02em;
+// -webkit-text-fill-color: transparent;
+// -webkit-background-clip: text;
+
