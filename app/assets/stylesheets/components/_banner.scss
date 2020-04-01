@@ -1,18 +1,73 @@
-.banner {
-  background-image: url(asset-path("es-banner.jpg"));
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
+.home-content {
+  margin-top: auto;
+  margin-bottom: auto;
   height: 100vh;
-  text-align: center;
-
-  h1 {
-    margin: 0;
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-  }
+  position: relative;
+  width: 100vw;
 }
 
+.home-background {
+  pointer-events: none;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1
+}
+
+// LINES BACKGROUND
+.line-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.lines {
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: $dark-beige;
+  top: 0;
+}
+
+.line1 {
+  left: 16.67vw;
+}
+
+.line2 {
+  left: 33.34vw;
+}
+
+.line3 {
+  left: 50vw;
+}
+
+.line4 {
+  left: 66.67vw;
+}
+
+.line5 {
+  left: 84vw;
+}
+
+.wrap-2 {
+    z-index:2;
+    position: absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+    height:100vh;
+    width:100vw;
+    margin:auto;
+    background: transparent;
+}
+canvas {
+    width:100%;
+    height:100vh;
+}
+
+.image-banner .profile-picture {
+  position: relative;
+  width: 50%;
+  left: 40%;
+  border-radius: 2%;
+}

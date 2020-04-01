@@ -1,0 +1,36 @@
+.title-banner {
+  position: absolute;
+  top: 14%;
+  left: 16.2%;
+
+  h1 {
+  font-family: $first-title;
+  font-size: 13.5rem;
+  color: $salmon;
+  opacity: 0.8;
+  }
+}
+
+.vertical-name {
+  position: fixed;
+  top: 65vh;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  right: -30px;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  float: left;
+  font-size: 11px;
+  color: $gray-name;
+}
+
+.description-banner {
+  position: absolute;
+  top: 60%;
+  left: 17.3%;
+
+  p {
+    font-family: $second-title;
+    color: $dark-gray;
+  }
+}
