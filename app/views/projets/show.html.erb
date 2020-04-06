@@ -1,7 +1,41 @@
-<div class="container">
-  <p> <%= @projet.name %></p>
+<!-- <div class="container">
+  <p> <%#= @projet.name %></p>
   <p> <%= @projet.description %></p>
   <p> <%= @projet.url %></p>
-</div>
+</div> -->
 
+
+<div class="wrap">
+  <div class="back">
+    <div class="back__slide active">
+      <div class="progress"></div>
+    </div>
+    <div class="back__slide">
+      <div class="progress"></div>
+      <div class="back-front-image"></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__slide active">
+      <div class="image"></div><span class="number">01</span>
+    </div>
+    <div class="card__slide">
+      <div class="back-image"></div>
+      <span class="number">02</span>
+    </div>
+    <div class="content">
+      <div class="content__slide active">
+        <h2 class="title"> <span class="title__line"> <span class="title__inner">Mesmerizing</span></span><span class="title__line"> <span class="title__inner">Depths</span></span></h2>
+        <p class="desc">Nunc orci metus, ornare non molestie ac, ultrices eget <br/> dolor. Mauris ac mattis lectus. Praesent facilisis <br/> malesuada sapien nec pharetra. Fusce eleifend, nisl.</p>
+        <div class="button-wrap"><a class="button">Learn More<span class="button__hover"></span></a></div>
+      </div>
+      <div class="content__slide">
+        <h2 class="title"> <span class="title__line"> <span class="title__inner">Breathtaking</span></span><span class="title__line"> <span class="title__inner">Heights</span></span></h2>
+        <p class="desc">Nunc orci metus, ornare non molestie ac, ultrices eget <br/> dolor. Mauris ac mattis lectus. Praesent facilisis <br/> malesuada sapien nec pharetra. Fusce eleifend, nisl.</p>
+        <div class="button-wrap"><a class="button">Learn More<span class="button__hover"></span></a></div>
+      </div>
+      <div class="content__ping content__ping--noanimation"></div>
+    </div>
+  </div>
+</div>
 
