@@ -71,6 +71,7 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-left: 30px;
   height: 100vh;
   li {
     position: relative;
@@ -143,9 +144,12 @@ li:hover .description {
   transition: .6s .3s;
 }
 
-header  {
+.projets {
+
   h1{
     padding: 1rem;
+    padding-left: 30px;
+    padding-bottom: 30px;
     font-family: $first-title;
     font-size: 4em;
     color: $dark-gray;
