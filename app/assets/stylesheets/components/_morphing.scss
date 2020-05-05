@@ -1,0 +1,125 @@
+.projet-container {
+    position: relative;
+    height: 100vh;
+}
+
+.mockup {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+  // background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+  animation: morphing 10s infinite;
+  overflow: hidden;
+  opacity: 0.8;
+
+  :hover {
+    animation-play-state: paused;
+  }
+
+  .guesswhat-mockup {
+    // width: 48%;
+    width: 250%;
+    left: 20%;
+    transform: rotate(10deg);
+  }
+
+}
+
+.projet {
+  position:absolute;
+  left: 8%;
+
+  h2 {
+    color: $dark-gray;
+    opacity: 0.2;
+    font-family: $first-title;
+    font-size: 5.5rem;
+  }
+}
+
+.projet-name {
+  position:absolute;
+  top: 90px;
+  left: 129px;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+  color: $dark-gray;
+
+  h1 {
+    font-size: 2.5rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+}
+
+@-moz-keyframes morphing {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
+}
+@-webkit-keyframes morphing {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
+}
+@-o-keyframes morphing {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
+}
+@keyframes morphing {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
+}
