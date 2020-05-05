@@ -1,0 +1,52 @@
+.about {
+  height: 100vh;
+  h1 {
+    font-family: $first-title;
+    font-size: 12rem;
+    color: $dark-gray;
+    position: absolute;
+    left: 8%;
+    top: 25%;
+
+    b {
+      color: #F4F4F4;
+    }
+  }
+}
+
+
+.portrait {
+  height: 100vh;
+
+  .portrait-picture {
+    position: absolute;
+    width: 27%;
+    top: 120%;
+    height: 70%;
+    right: 17%;
+    border-radius: 2%;
+  }
+
+  .portrait-description {
+    position: absolute;
+    width: 33%;
+    top: 120%;
+    height: 70%;
+    left: 16%;
+  }
+  .portrait-title {
+    h1 {
+      font-family: $first-title;
+      color: $dark-gray;
+      font-weight: bold;
+    }
+
+    p {
+      font-family: $first-title;
+      color: $dark-gray;
+      line-height: 1.7;
+      font-size: 1.2rem;
+    }
+  }
+}
+
