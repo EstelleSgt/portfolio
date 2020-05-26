@@ -1,0 +1,17 @@
+.show-name {
+  height: 100vh;
+  h1 {
+    font-family: $first-title;
+    font-size: 12rem;
+    color: $dark-gray;
+    position: absolute;
+    left: 8%;
+    top: 25%;
+
+    b {
+      color: #F4F4F4;
+    }
+  }
+}
+
+
