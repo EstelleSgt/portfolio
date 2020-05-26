@@ -11,11 +11,12 @@ Projet.destroy_all
 
 puts "Creating projets..."
 
-guesswhat = Projet.new(name: "Guess What", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, architecto necessitatibus minima nesciunt obcaecati ipsa natus.", url: "www.exemple.com", technologies: "Web Development")
-mistercocktail = Projet.new(name: "Mister Cocktail", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, architecto necessitatibus minima nesciunt obcaecati ipsa natus.", url: "www.exemple.com", technologies: "Web Development")
-petme = Projet.new(name: "Pet me", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, architecto necessitatibus minima nesciunt obcaecati ipsa natus.", url: "www.exemple.com", technologies: "Web Development")
+guesswhat = Projet.new(name: "Guess What", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, architecto necessitatibus minima nesciunt obcaecati ipsa natus.", url: "www.exemple.com", technologies: "Full-stack")
+mistercocktail = Projet.new(name: "Mister Cocktail", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, architecto necessitatibus minima nesciunt obcaecati ipsa natus.", url: "www.exemple.com", technologies: "Full-stack")
+petme = Projet.new(name: "Pet me", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, architecto necessitatibus minima nesciunt obcaecati ipsa natus.", url: "www.exemple.com", technologies: "Full-stack")
+profile = Projet.new(name: "Profile", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, architecto necessitatibus minima nesciunt obcaecati ipsa natus.", url: "www.exemple.com", technologies: "Full-stack")
 
-[ guesswhat, mistercocktail, petme ].each do |projet|
+[ guesswhat, mistercocktail, petme, profile ].each do |projet|
   projet.save
   puts "Created #{projet.name}"
 end
